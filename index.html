@@ -5,28 +5,36 @@
     <meta charset="UTF-8">
     <title>DOM manipulation example</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
+    <!-- if you forget this line your responsive design won't work-->
+
 </head>
 
 <body>
     <header>
         <h1>Enter student's information</h1>
-        <button>Change Background Color</button>
+        <button id="color">Change Background Color</button>
     </header>
 
-    <section>
+    <div id="form">
         <label>First Name:</label>
         <input id="firstname" type="text">
         <label>Last Name:</label>
         <input id="lastname" type="text">
         <label>Program Name:</label>
         <input id="progName" type="text">
+    </div>
+    <div id="submit">
         <button>Submit</button>
+    </div>
     </section>
 
     <section>
         <h2>Enrolled students</h2>
-        <ul>Sudents Enrolled in CIT</ul>
-        <ul>Sudents Enrolled in CST</ul>
+        <div id="students">
+            <ul>Sudents Enrolled in CIT</ul>
+            <ul>Sudents Enrolled in CST</ul>
+        </div>
     </section>
 
 </body>
