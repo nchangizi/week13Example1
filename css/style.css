@@ -24,15 +24,13 @@ label {
     flex-direction: column;
 }
 
-
-/*
 header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 5%;
-} */
+}
 
 @media (min-width:600px) {
     /* over-write only styles that need to be changed for bigger screens*/
@@ -43,8 +41,7 @@ header {
         flex-direction: row;
         justify-content: space-around;
     }
-    /* 
     header {
         flex-direction: row;
-    } */
+    }
 }
