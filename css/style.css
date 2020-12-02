@@ -19,12 +19,13 @@ label {
     text-align: center;
 }
 
-
-/* #students {
+#students {
     display: flex;
     flex-direction: column;
 }
 
+
+/*
 header {
     display: flex;
     flex-direction: column;
@@ -38,10 +39,11 @@ header {
     #form {
         grid-template-columns: repeat(6, 1fr);
     }
-    /* #students {
+    #students {
         flex-direction: row;
         justify-content: space-around;
     }
+    /* 
     header {
         flex-direction: row;
     } */
